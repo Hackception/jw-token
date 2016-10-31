@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`jw-token`
+JWT Helper
+
+@demo demo/index.html 
+-->
+
+<dom-module id="jw-token">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'jw-token',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'jw-token',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
